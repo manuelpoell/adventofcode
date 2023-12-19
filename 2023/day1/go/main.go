@@ -13,7 +13,7 @@ var fileName string
 var extra bool
 
 func init() {
-	flag.StringVar(&fileName, "f", "./input.txt", "Name of input file")
+	flag.StringVar(&fileName, "f", "../input.txt", "Path to input file")
 	flag.BoolVar(&extra, "e", false, "Enable functions for part two")
 	flag.Parse()
 }

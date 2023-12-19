@@ -1,2 +1,8 @@
 # Challenge files
 *.txt
+
+# node modules
+node_modules/
+
+# build outputs
+dist/
