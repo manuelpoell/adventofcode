@@ -1,0 +1,24 @@
+{
+  "name": "aoc2023day2",
+  "version": "1.0.0",
+  "description": "AoC 2023 Day 2 Challenge",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf ./dist",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "prestart:extra": "npm run build",
+    "start:extra": "node dist/index.js --extra"
+  },
+  "author": "Manuel Poell",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
