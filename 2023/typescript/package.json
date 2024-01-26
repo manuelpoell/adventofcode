@@ -1,0 +1,24 @@
+{
+  "name": "aoc2023",
+  "version": "1.0.0",
+  "description": "Advent of Code Challenges 2023",
+  "scripts": {
+    "prebuild": "rimraf ./dist",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/main.js",
+    "format": "prettier --write ./src"
+  },
+  "keywords": [],
+  "author": "Manuel Poell",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "prettier": "^3.2.4",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  }
+}
