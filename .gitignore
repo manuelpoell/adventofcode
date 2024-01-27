@@ -6,3 +6,6 @@ node_modules/
 
 # build outputs
 dist/
+
+# test directories
+coverage/

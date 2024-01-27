@@ -27,3 +27,15 @@ npm run start -- --day {day} --file {file}
 ```shell
 npm run start -- --day {day} --file {file} --partTwo
 ```
+
+## Run unit tests
+
+```shell
+npm run test
+```
+
+or with code coverage
+
+```shell
+npm run test:cov
+```
