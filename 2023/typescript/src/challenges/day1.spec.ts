@@ -1,4 +1,4 @@
-import { Day1 } from '../challenges';
+import { Day1 } from './day1';
 
 test('AoC 2023 Day 1 Part 1', () => {
   const input = '1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet';
