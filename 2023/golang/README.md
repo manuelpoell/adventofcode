@@ -21,3 +21,9 @@ go run . -d {day} -f {file}
 ```shell
 go run . -d {day} -f {file} -p
 ```
+
+## Run unit tests
+
+```shell
+go test ./...
+```
