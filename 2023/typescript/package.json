@@ -9,6 +9,7 @@
     "start": "node dist/main.js",
     "format": "prettier --write ./src",
     "test": "jest",
+    "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
   },
   "keywords": [],
