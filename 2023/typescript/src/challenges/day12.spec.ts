@@ -1,0 +1,21 @@
+import { Day12 } from './day12';
+
+test('AoC 2023 Day 12 Part 1', () => {
+  const input =
+    '???.### 1,1,3\n.??..??...?##. 1,1,3\n?#?#?#?#?#?#?#? 1,3,1,6\n????.#...#... 4,1,1\n????.######..#####. 1,6,5\n?###???????? 3,2,1';
+  const partTwo = false;
+
+  const result = new Day12(input, partTwo).solve();
+
+  expect(result).toBe(21);
+});
+
+test('AoC 2023 Day 12 Part 2', () => {
+  const input =
+    '???.### 1,1,3\n.??..??...?##. 1,1,3\n?#?#?#?#?#?#?#? 1,3,1,6\n????.#...#... 4,1,1\n????.######..#####. 1,6,5\n?###???????? 3,2,1';
+  const partTwo = true;
+
+  const result = new Day12(input, partTwo).solve();
+
+  expect(result).toBe(525152);
+});
