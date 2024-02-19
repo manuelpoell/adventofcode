@@ -5,7 +5,7 @@ interface ConditionRecord {
   groups: Array<number>;
 }
 
-export function memoize(func: (...args: any) => any): (...args: any) => any {
+function memoize(func: (...args: any) => any): (...args: any) => any {
   const stored = new Map<string, any>();
 
   return (...args) => {
@@ -63,7 +63,8 @@ export class Day12 extends Challenge {
       return 1;
     }
 
-    if (record.row.length < record.groups.reduce((sum, val) => sum + val, 0) + record.groups.length - 1) {
+    const groupSum = record.groups.reduce((sum, val) => sum + val, 0);
+    if (record.row.length < groupSum + record.groups.length - 1) {
       return 0;
     }
 
