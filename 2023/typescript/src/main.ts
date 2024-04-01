@@ -1,6 +1,21 @@
 import { program } from 'commander';
 import * as fs from 'fs/promises';
-import { Challenge, Day1, Day10, Day11, Day12, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9 } from './challenges';
+import {
+  Challenge,
+  Day1,
+  Day10,
+  Day11,
+  Day12,
+  Day13,
+  Day2,
+  Day3,
+  Day4,
+  Day5,
+  Day6,
+  Day7,
+  Day8,
+  Day9,
+} from './challenges';
 
 export const main = () => {
   program
@@ -55,6 +70,9 @@ export const main = () => {
           break;
         case '12':
           challenge = new Day12(content, partTwo);
+          break;
+        case '13':
+          challenge = new Day13(content, partTwo);
           break;
       }
 
