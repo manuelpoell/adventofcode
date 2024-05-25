@@ -11,7 +11,7 @@
     "resolveJsonModule": true
   },
   "exclude": [
-    "**/*.spec.ts",
+    "**/*.js",
     "coverage/",
     "node_modules/"
   ]
