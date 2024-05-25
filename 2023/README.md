@@ -1,4 +1,4 @@
-# Advent of Code 2023 - TypeScript solutions
+# Advent of Code 2023 - TypeScript
 
 ## Requirements
 
