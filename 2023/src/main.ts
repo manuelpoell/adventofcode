@@ -16,6 +16,7 @@ import {
   Day20,
   Day21,
   Day22,
+  Day23,
   Day2,
   Day3,
   Day4,
@@ -109,6 +110,9 @@ export const main = () => {
           break;
         case '22':
           challenge = new Day22(content, partTwo);
+          break;
+        case '23':
+          challenge = new Day23(content, partTwo);
           break;
       }
 
