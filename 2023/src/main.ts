@@ -37,7 +37,14 @@ export const main = () => {
     .parse();
   const { day, file, partTwo } = program.opts<{ day: string; file: string; partTwo: boolean }>();
 
-  const content = fs.readFileSync(file, 'utf8');
+  let content: string = '';
+  try {
+    content = fs.readFileSync(file, 'utf8');
+  } catch (e) {
+    console.log(e);
+    return;
+  }
+
   if (!content) {
     console.log(`failed to read content of ${file}`);
     return;
