@@ -6,12 +6,13 @@ This repository is a collection of my solutions to [Advent of Code](https://adve
 
 ![Language](https://img.shields.io/badge/Language-Python3-306998)
 ![Completion](https://img.shields.io/badge/Completion-4%25-yellow)
+![codecov](https://codecov.io/github/manuelpoell/adventofcode/graph/badge.svg?token=D6XEVTSF19&flag=Python2024)
 
 Challenges from [Advent of Code 2024](https://adventofcode.com/2024)
 
 | Challenge                                                                     | Solution                                                                                       |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)              | [day1.ts](https://github.com/manuelpoell/adventofcode/blob/main/2024/day1/day1.py)             |
+| [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)              | [day1.py](https://github.com/manuelpoell/adventofcode/blob/main/2024/day1/day1.py)             |
 
 ## 2023 - TypeScript
 

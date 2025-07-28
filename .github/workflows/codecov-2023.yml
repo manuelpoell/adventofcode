@@ -1,5 +1,6 @@
 name: Collect Code Coverage for 2023 TypeScript
-on: push
+on:
+  workflow_dispatch:
 jobs:
   test:
     name: Run tests and collect coverage
