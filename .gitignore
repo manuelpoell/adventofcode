@@ -1,5 +1,5 @@
 # Challenge files
-*.txt
+input.txt
 
 # node modules
 node_modules/
@@ -7,8 +7,14 @@ node_modules/
 # build outputs
 dist/
 
-# test directories
+# test
 coverage/
+.coverage
 
 # IDE
 .idea/
+
+# python
+.venv/
+__pycache__/
+.pytest_cache/

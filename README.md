@@ -2,6 +2,17 @@
 
 This repository is a collection of my solutions to [Advent of Code](https://adventofcode.com/). For each year, I try to solve the challenges in a different programming language in order to improve my skills with hands-on experience.
 
+## 2024 - Python
+
+![Language](https://img.shields.io/badge/Language-Python3-306998)
+![Completion](https://img.shields.io/badge/Completion-4%25-yellow)
+
+Challenges from [Advent of Code 2024](https://adventofcode.com/2024)
+
+| Challenge                                                                     | Solution                                                                                       |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)              | [day1.ts](https://github.com/manuelpoell/adventofcode/blob/main/2024/day1/day1.py)             |
+
 ## 2023 - TypeScript
 
 ![Language](https://img.shields.io/badge/Language-TypeScript-007ACC)
