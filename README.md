@@ -5,7 +5,7 @@ This repository is a collection of my solutions to [Advent of Code](https://adve
 ## 2024 - Python
 
 ![Language](https://img.shields.io/badge/Language-Python3-306998)
-![Completion](https://img.shields.io/badge/Completion-12%25-yellow)
+![Completion](https://img.shields.io/badge/Completion-16%25-yellow)
 ![codecov](https://codecov.io/github/manuelpoell/adventofcode/graph/badge.svg?token=D6XEVTSF19&flag=Python2024)
 
 Challenges from [Advent of Code 2024](https://adventofcode.com/2024)
@@ -15,6 +15,7 @@ Challenges from [Advent of Code 2024](https://adventofcode.com/2024)
 | [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)              | [day1.py](https://github.com/manuelpoell/adventofcode/blob/main/2024/day1/day1.py)             |
 | [Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2)               | [day2.py](https://github.com/manuelpoell/adventofcode/blob/main/2024/day2/day2.py)             |
 | [Day 3: Mull It Over](https://adventofcode.com/2024/day/3)                    | [day3.py](https://github.com/manuelpoell/adventofcode/blob/main/2024/day3/day3.py)             |
+| [Day 4: Ceres Search](https://adventofcode.com/2024/day/4)                    | [day4.py](https://github.com/manuelpoell/adventofcode/blob/main/2024/day4/day4.py)             |
 
 ## 2023 - TypeScript
 
